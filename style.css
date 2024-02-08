@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    format:('opentype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #84E1AD;
+    font-weight: 500;
+}
+
+header{
+    height: 180px;
+    background-color: rgb(34, 197, 135);
+    padding: 1px;
+    margin: 0px;
+    color: white;
+    box-shadow: inset -0px -85px 118px 1px rgba(0, 14, 6, 0.808);
+}
+
+h1{
+    font-family: fantasy;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+}
+
+header > p{
+    margin-left: 635px;
+    width: 403px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav{
+    margin-top: 35px;
+}
+
+nav > a{
+    text-decoration: none;
+    margin-left: 230px;
+    color: white;
+    font-weight: bold;
+    margin-right: -200px;
+}
+
+nav > a:hover{
+    background-color: rgb(28, 110, 79);
+    padding: 8px;
+    padding-bottom: 11px;
+    box-shadow: inset 2px 1px 4px 1px black;
+}
+
+/* Conteudo*/
+
+.final{
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.473);
+}
+
+h2{
+    font-family: 'idroid';
+    color: #09552a;
+}
+
+h3{
+    font-family: 'idroid';
+    color: #066d33;
+    background-image: linear-gradient(to right, #75dba18f, white );
+}
+
+main > p{
+    text-indent: 10px;
+}
+
+.mascote{
+    width: 100%;
+}
+
+.bixo{
+ margin-left: 25%;
+}
+
+#dale{
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    background-color: #09552a;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.473);
+
+}
+
+#merda{
+    color: white;
+    background-color: #2FA866;
+    margin: 0px;
+    margin-top: 5px;
+    padding: 7px 7px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#merdinha{
+    text-indent: 10px;
+    background-color: #C5EBD6;
+    margin: 0px;
+    padding: 1px 7px 10px 7px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#finalzao{
+    padding-bottom: 15px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#listinha{
+    
+}
+
+.google{
+    color: #066d33;
+    font-weight: bold;
+}
+
+
+.link::after{
+    content: '🔗';
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.link{
+    color: #066d33;
+    text-decoration: none;
+}
+
+
+
+/* Footer */
+
+footer{
+    color: white;
+    background-color: #1A5C38;
+    margin-top: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+footer > p{
+    margin: 0px;
+    text-align: center  ;
+}
+
+.gustavo{
+    font-weight: bold;
+}
